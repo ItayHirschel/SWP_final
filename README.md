@@ -18,7 +18,7 @@ $$d_{i,j} = \sum_{z = 1}^{n} w_{iz}$$
 
 else :
 
-$d_{i,j} = 0$
+$$d_{i,j} = 0$$
 
 The normalized graph Laplacian $L_{norm} \in \mathbb{R}^{n \times n}$ is defined as:
 
@@ -27,7 +27,7 @@ $$ L_{norm} = I - D^{-\frac{1}{2}} W D^{-\frac{1}{2}} $$
 The reason we are interested in Lnorm is that it has all eigenvalues $\lambda_1 \ge \dots \ge \lambda_n \ge 0 $ are real and
 non-negative.
 
-## 3 : Determine k and obtain the largest k eigenvectors $u_1, \dots , u_k$ of $L_{norm}$
+## 3 : Determine k and obtain the largest k eigenvectors $ u_1, \dots , u_k $ of $L_{norm}$
 
 First we obtain the eigenvalues of $L_{norm}$ by diagonising the matrix according to the Jacobi Algorithm.
 Then, if we were not given $k$ as an argument, we obtain $k$ by using the heuristic:
