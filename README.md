@@ -14,11 +14,11 @@ The diagonal degree matrix (DDM)  $D \in \mathbb{R}^{n \times n}$  is defined as
 
 if i = j :
 
-$ d_{i,j} = \sum_{z = 1}^{n} w_{iz} $
+$d_{i,j} = \sum_{z = 1}^{n} w_{iz}$
 
 else :
 
-$ d_{i,j} = 0 $
+$d_{i,j} = 0$
 
 The normalized graph Laplacian $L_{norm} \in \mathbb{R}^{n \times n}$ is defined as:
 
